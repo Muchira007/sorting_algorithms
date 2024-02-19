@@ -26,6 +26,7 @@ void bubble_Sort(int *array, size_t size)
 	bool bubbly = false;
 
 	if (array == NULL || size < 2)
+		return;
 
 	while (bubbly == false)
 	{
