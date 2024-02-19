@@ -40,6 +40,6 @@ void bubble_Sort(int *array, size_t size)
 				bubbly = false;
 			}
 		}
-		len --;
+		len--;
 	}
 }
