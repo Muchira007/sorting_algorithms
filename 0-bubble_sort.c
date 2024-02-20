@@ -28,11 +28,11 @@ void bubble_Sort(int *array, size_t size)
 	if (array == NULL || size < 2)
 		return;
 
-	while (bubbly)
+	while (bubbly && len > 0)
 	{
 		bubbly = false;
 
-		for(i = 0; i < len - 1 ; i++)
+		for(i = 0; i < len - 1; i++)
 		{
 			if (array[i] > array[i + 1])
 			{
